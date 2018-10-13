@@ -1,0 +1,1 @@
+sed -i -e "s/@include common-auth/auth    sufficient pam_ssh_agent_auth.so file=~\/.ssh\/authorized_keys allow_user_owned_authorized_keys_file\n@include common-auth/g" /etc/pam.d/sudo

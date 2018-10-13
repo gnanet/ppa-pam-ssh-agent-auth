@@ -1,1 +1,2 @@
-lib/security
+lib/x86_64-linux-gnu/security
+usr/share/pam_ssh_agent_auth

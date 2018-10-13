@@ -41,7 +41,7 @@ endif
 ifneq "$(wildcard /usr/share/misc/config.guess)" ""
 	cp -f /usr/share/misc/config.guess config.guess
 endif
-	./configure $(CROSS) --prefix=/usr --libexecdir=/lib/security --with-mantype=man --mandir=/usr//share/man --infodir=/usr/share/info CFLAGS="$(CFLAGS)" LDFLAGS="-Wl,-z,defs" 
+	./configure $(CROSS) --prefix=/usr --libexecdir=/lib/x86_64-linux-gnu/security --with-mantype=man --mandir=/usr//share/man --infodir=/usr/share/info CFLAGS="$(CFLAGS)" LDFLAGS="-Wl,-z,defs" 
 
 
 build: build-stamp

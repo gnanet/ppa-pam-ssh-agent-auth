@@ -1,3 +1,10 @@
+pam-ssh-agent-auth (0.10.3-1debian7) wheezy; urgency=low
+
+  * Rebuild for Debian Wheezy, based on PPA source package 0.10.3-0ubuntu0ppa1 of Chris Pick <chris@chrispick.com>
+
+ -- Gergely Nagy <gna@r-us.hu>  Thu, 11 Oct 2018 22:06:57 +0200
+
+
 pam-ssh-agent-auth (0.10.3-0ubuntu0ppa1) xenial; urgency=low
 
   * Pull version 0.10.3 from upstream
